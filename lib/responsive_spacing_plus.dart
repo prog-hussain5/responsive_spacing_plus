@@ -18,6 +18,10 @@ class ResponsiveBreakpoints {
   final double mobileMax; // inclusive upper bound for mobile
   final double tabletMax; // inclusive upper bound for tablet
 
+  /// Creates breakpoints for classifying device types by screen width.
+  ///
+  /// Defaults to `mobileMax = 600` and `tabletMax = 1024`.
+  /// Any width `<= mobileMax` is mobile, `<= tabletMax` is tablet, and larger is desktop.
   const ResponsiveBreakpoints({this.mobileMax = 600, this.tabletMax = 1024})
     : assert(mobileMax > 0),
       assert(tabletMax > mobileMax);
@@ -105,8 +109,13 @@ class Responsive {
     return DeviceType.desktop;
   }
 
+  /// Whether the screen should be treated as a mobile layout (width <= mobileMax).
   static bool isMobile(BuildContext c) => deviceType(c) == DeviceType.mobile;
+
+  /// Whether the screen should be treated as a tablet layout (mobileMax < width <= tabletMax).
   static bool isTablet(BuildContext c) => deviceType(c) == DeviceType.tablet;
+
+  /// Whether the screen should be treated as a desktop layout (width > tabletMax).
   static bool isDesktop(BuildContext c) => deviceType(c) == DeviceType.desktop;
 
   /// Width-based scale factor relative to [ResponsiveConfig.designWidth].
