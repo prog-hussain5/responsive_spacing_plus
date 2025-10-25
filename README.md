@@ -1,4 +1,19 @@
-## responsive_spacing
+## responsive_spacing_plus
+
+<div align="center">
+
+<!-- Hero screenshots (top of the page) -->
+
+| | |
+|---|---|
+| ![Mobile — Typography](images/mobile_font.png) | ![Mobile — Grid](images/mobile_grid.png) |
+| ![Tablet — Typography](images/taplet_font.png) | ![Tablet — Grid](images/tablet_grid.png) |
+
+<br/>
+
+[GitHub repository](https://github.com/prog-hussain5/responsive_spacing_plus)
+
+</div>
 
 Lightweight responsive toolkit for Flutter (mobile, tablet, desktop). It provides device-type detection, screen metrics, and convenient scaling helpers for typography, spacing, icons/images, padding, and radius. It also includes design-size extensions (.w, .h, .sp, .r), a value picker per device type, and a simple builder widget.
 
@@ -25,7 +40,7 @@ dependencies:
 2) Import:
 
 ```dart
-import 'package:responsive_spacing_plus/responsive_spacing.dart';
+import 'package:responsive_spacing_plus/responsive_spacing_plus.dart';
 ```
 
 3) (Optional) Initialize global config once if you want to override defaults:

@@ -61,3 +61,7 @@ screenshots:
     path: images/tablet_grid.png
   - description: Tablet — Typography
     path: images/taplet_font.png
+
+homepage: https://github.com/prog-hussain5/responsive_spacing_plus
+repository: https://github.com/prog-hussain5/responsive_spacing_plus
+issue_tracker: https://github.com/prog-hussain5/responsive_spacing_plus/issues

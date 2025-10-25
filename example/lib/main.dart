@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:responsive_spacing_plus/responsive_spacing.dart';
+import 'package:responsive_spacing_plus/responsive_spacing_plus.dart';
 
 void main() {
   // Optional: override defaults

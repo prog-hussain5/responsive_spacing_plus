@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:responsive_spacing_plus/responsive_spacing.dart';
+import 'package:responsive_spacing_plus/responsive_spacing_plus.dart';
 
 void main() {
   testWidgets('deviceType resolves correctly by width', (tester) async {
