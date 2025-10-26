@@ -1,3 +1,8 @@
+## 0.0.3
+
+- README: unify hero screenshot sizes and remove duplicated images section
+- Docs: keep import snippet up to date
+
 ## 0.0.2
 
 - Add homepage/repository metadata in pubspec for pub points

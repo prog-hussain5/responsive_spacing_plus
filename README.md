@@ -6,8 +6,8 @@
 
 | | |
 |---|---|
-| ![Mobile — Typography](images/mobile_font.png) | ![Mobile — Grid](images/mobile_grid.png) |
-| ![Tablet — Typography](images/taplet_font.png) | ![Tablet — Grid](images/tablet_grid.png) |
+| <img src="images/mobile_font.png" alt="Mobile — Typography" height="260" /> | <img src="images/mobile_grid.png" alt="Mobile — Grid" height="260" /> |
+| <img src="images/taplet_font.png" alt="Tablet — Typography" height="260" /> | <img src="images/tablet_grid.png" alt="Tablet — Grid" height="260" /> |
 
 <br/>
 
@@ -34,7 +34,7 @@ Lightweight responsive toolkit for Flutter (mobile, tablet, desktop). It provide
 dependencies:
   flutter:
     sdk: flutter
-  responsive_spacing_plus: ^0.0.1
+	responsive_spacing_plus: ^0.0.3
 ```
 
 2) Import:
@@ -149,13 +149,7 @@ images/
 
 Embedded below (relative paths work on pub.dev):
 
-![Mobile — Typography](images/mobile_font.png)
-
-![Mobile — Grid](images/mobile_grid.png)
-
-![Tablet — Grid](images/tablet_grid.png)
-
-![Tablet — Typography](images/taplet_font.png)
+(Screenshots are shown at the top of this page.)
 
 How to capture on Windows while the example is running:
 

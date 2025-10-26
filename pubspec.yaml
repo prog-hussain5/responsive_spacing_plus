@@ -1,6 +1,6 @@
 name: responsive_spacing_plus
 description: "Responsive spacing, typography, and widget sizing helpers for Flutter (mobile, tablet, desktop) with design-size scaling and device breakpoints."
-version: 0.0.2
+version: 0.0.3
 
 environment:
   sdk: ^3.9.0

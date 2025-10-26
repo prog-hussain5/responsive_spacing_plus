@@ -70,7 +70,10 @@ void main() {
         data: const MediaQueryData(size: Size(750, 1624)), // 2x of 375x812
         child: Builder(
           builder: (context) {
-            p = Responsive.padding(context, const EdgeInsets.fromLTRB(10, 20, 30, 40));
+            p = Responsive.padding(
+              context,
+              const EdgeInsets.fromLTRB(10, 20, 30, 40),
+            );
             return const SizedBox.shrink();
           },
         ),
